@@ -1,0 +1,38 @@
+/* Centered landing page container into middle of page */
+#landingPage {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* pushes all first headings down below Navbar */
+.mainContainer {
+    margin-top: 50px;
+}
+
+/* class lead is gray text seen on shipping details page */
+.lead {
+    color: rgb(127, 127, 128);
+}
+
+/* all links have no text decoration before and after they have been clicked on */
+a,
+a:visited {
+    text-decoration: none;
+
+}
+
+/* product images on cart page have been made smaller */
+.product>img {
+    width: 180px;
+    height: 180px;
+}
+
+/* background image for landing page*/
+#bg {
+    opacity: 0.016;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
